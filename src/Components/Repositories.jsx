@@ -1,6 +1,5 @@
 import React from "react";
 import jsonFetch from "simple-json-fetch";
-// import Loader from "./loader";
 
 const endpoint = `https://api.github.com/users/nomaanahmed/repos?direction=desc`;
 

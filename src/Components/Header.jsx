@@ -76,7 +76,6 @@ class Header extends Component {
               {networks}
               <li className='resumeDownload'>
                 <a
-                  // className='smoothscroll'
                   href={resumeDownload}
                   target='_blank'
                   rel='noopener noreferrer'

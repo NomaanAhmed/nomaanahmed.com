@@ -3,6 +3,7 @@ import React, { Component } from "react";
 class Footer extends Component {
   render() {
     if (this.props.data) {
+      var resumeDownload = this.props.data.resumedownload;
       var networks = this.props.data.social.map(function (network) {
         return (
           <li key={network.name}>
@@ -18,8 +19,18 @@ class Footer extends Component {
       <footer>
         <div className='row'>
           <div className='twelve columns'>
-            <ul className='social-links'>{networks}</ul>
-
+            <ul className='social-links'>
+              {networks}
+              <li className='resumeDownload'>
+                <a
+                  href={resumeDownload}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <i className='fa fa-download'></i>
+                </a>
+              </li>
+            </ul>
             <ul className='copyright'>
               <li>&copy; Copyright 2020 Nomaan Ahmed</li>
             </ul>

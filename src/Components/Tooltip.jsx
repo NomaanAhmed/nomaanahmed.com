@@ -58,22 +58,3 @@ class Tooltip extends React.Component {
 }
 
 export default Tooltip;
-
-// if (styling == 'inherit') {
-//   return (
-//       <span className='tooltip'
-//           onMouseLeave={this.hideTooltip}
-//         >
-//         {this.state.displayTooltip &&
-//         <div className={`tooltip-bubble tooltip-${position}`}>
-//           <div className='tooltip-message'>{message}</div>
-//         </div>
-//         }
-//         <span
-//           className='tooltip-trigger'
-//           onMouseOver={this.showTooltip}
-//           >
-//           {this.props.children}
-//         </span>
-//       </span>
-//   )

@@ -42,7 +42,8 @@ class Resume extends Component {
           <div key={education.school}>
             <h3>{education.school}</h3>
             <p className='info'>
-              {education.degree} <span>&bull;</span>
+              {education.degree}{" "}
+              <span className='hideIfSmallMobile'>&bull;</span>{" "}
               <em className='date'>{education.graduated}</em>
             </p>
             <p>{education.description}</p>
@@ -60,14 +61,13 @@ class Resume extends Component {
 
       var work = this.props.data.work.map(function (work) {
         const workDescription = work.description.map((line) => <li>{line}</li>);
-
         return (
           <div key={work.company}>
             <h3>{work.company}</h3>
-            <span>{work.tagline}</span>
+            <span className='company-tagline'>{work.tagline}</span>
             <p className='info'>
-              {work.title}
-              <span>&bull;</span> <em className='date'>{work.years}</em>
+              {work.title} <span className='hideIfSmallMobile'>&bull;</span>{" "}
+              <em className='date'>{work.years}</em>
             </p>
             <ul>{workDescription}</ul>
           </div>
@@ -119,7 +119,6 @@ class Resume extends Component {
         return (
           <li key={skills.name}>
             <span style={{ width: skills.level + "%" }} className={className}>
-              {" "}
               {this.state.hoverOther && (
                 <span className='bar-text hideIfMobile'>{skills.details}</span>
               )}

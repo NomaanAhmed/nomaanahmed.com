@@ -15,7 +15,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: url(../images/banner.png) no-repeat top center;
+  background: url(../images/banner.jpg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -49,7 +49,7 @@ header .banner-text h1 {
   font: 90px/1.1em "opensans-bold", sans-serif;
   color: white;
   letter-spacing: -2px;
-  margin: 0 auto 18px auto;
+  margin: 0 18px 18px 18px;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
 }
 header .banner-text h3 {
@@ -292,9 +292,6 @@ ul#nav li.current a {
   font: 25px/30px "opensans-bold", sans-serif;
 }
 
-/* #resume .header-col {
-  padding-top: 9px;
-} */
 #resume .main-col {
   padding-right: 10%;
 }
@@ -311,7 +308,7 @@ ul#nav li.current a {
   margin-bottom: 3px;
 }
 
-.work span {
+#resume .company-tagline {
   line-height: 1 !important;
   font-style: italic;
 }
@@ -319,7 +316,7 @@ ul#nav li.current a {
 #resume .info {
   font: 16px/24px "librebaskerville-italic", serif;
   color: #6e7881;
-  margin-bottom: 0;
+  margin-bottom: 12px;
   margin-top: 9px;
 }
 #resume .info span {
@@ -336,6 +333,7 @@ ul#nav li.current a {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 #resume .relatedCourses li {
@@ -351,7 +349,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #repositories {
-  background: #1f1f1f url(../images/perspective-bg.png) no-repeat center center;
+  background: #1f1f1f url(../images/perspective-bg.jpg) no-repeat center center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   background-attachment: fixed;
