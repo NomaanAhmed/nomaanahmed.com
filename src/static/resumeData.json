@@ -3,7 +3,7 @@
     "name": "Nomaan Ahmed",
     "occupation": "Software Engineer",
     "description": "I'm a Software Engineer with a proven history of being able to design, develop, and deliver well-built products.",
-    "image": "profilepic.jpg",
+    "image": "(Fill in manually in component imports)",
     "bio": "I like to solve problems and build things. Lately, I've been trying to do both of those at scale. Always looking to make an impact - have something in mind? Let's talk.",
     "contactmessage": "Have something in mind? Let's talk.",
     "email": "nomaan.ahmed.8@gmail.com",
@@ -70,7 +70,7 @@
         "company": "",
         "tagline": "",
         "title": "Software Engineer - Full Stack",
-        "years": "May 2016 - September 2016",
+        "years": "January 2019 - December 2019",
         "description": [
           "Developed and assisted in design & architecture of 2 Single-Page Web Applications using ReactJS, NodeJS, Python & PostgreSQL as part of a team. Version control using Git.",
           "Implemented proprietary algorithms for scoring users based on data analysis of over 1000 points of financial data & machine learning.",
@@ -199,7 +199,7 @@
         {
           "name": "Git",
           "level": 95,
-          "details": "GitHub/GitLab/BitBucker, CLI"
+          "details": "CLI, GitHub/GitLab/BitBucket"
         },
         {
           "name": "SQL",

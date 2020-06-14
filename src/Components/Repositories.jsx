@@ -1,7 +1,7 @@
 import React from "react";
 import jsonFetch from "simple-json-fetch";
 
-const endpoint = `https://api.github.com/users/nomaanahmed/repos?direction=desc`;
+const endpoint = `https://api.github.com/users/nomaanahmed/repos?sort=updated&direction=desc`;
 
 class Repositories extends React.Component {
   constructor(props) {

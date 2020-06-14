@@ -55,7 +55,7 @@ class Header extends Component {
                 Contact
               </a>
             </li>
-            <li className='resumeDownload'>
+            <li className='resumeDownloadMobile'>
               <a
                 href={resumeDownload}
                 target='_blank'
@@ -66,6 +66,11 @@ class Header extends Component {
             </li>
           </ul>
         </nav>
+        <span className='resumeDownloadDesktop hideIfMobile'>
+          <a href={resumeDownload} target='_blank' rel='noopener noreferrer'>
+            <i className='fa fa-download'></i> Download Resume
+          </a>
+        </span>
 
         <div className='row banner'>
           <div className='banner-text'>
