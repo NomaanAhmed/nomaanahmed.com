@@ -54,9 +54,16 @@
     ],
     "work": [
       {
+        "company": "Localised",
+        "tagline": "Global startup specializing in all aspects of ecommerce enabling major brands to expand worldwide. Brands include Urban Outfitters, American Eagle, Crate & Barrel & others.",
+        "title": "Engineering Manager",
+        "years": "September 2020 - Present ",
+        "description": []
+      },
+      {
         "company": "Mastercard",
         "tagline": "Multinational financial services corporation responsible for the largest payment processing network in the world specializing in cashless payments.",
-        "title": "Lead Software Engineer & Project Manager",
+        "title": "Software Engineering Manager",
         "years": "January 2020 - Present ",
         "description": [
           "Promotion due to performance, already fulfilling role responsibilities, and ability to communicate effectively across technical and non-technical parties.",
