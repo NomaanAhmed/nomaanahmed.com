@@ -58,19 +58,20 @@
         "tagline": "Global startup specializing in all aspects of ecommerce enabling major brands to expand worldwide. Brands include Urban Outfitters, American Eagle, Crate & Barrel & others.",
         "title": "Engineering Manager",
         "years": "August 2020 - Present ",
-        "description": []
+        "description": [
+        "Reporting directly to CEO, managed roadmaps and feature development of Localised products in support of major brands (American Eagle, Urban Outfitters, Crate&Barrel, Saks Fifth Avenue, etc.) as well as technical representation of Localised in external meetings."
+        ]
       },
       {
         "company": "Mastercard",
         "tagline": "Multinational financial services corporation responsible for the largest payment processing network in the world specializing in cashless payments.",
-        "title": "Software Engineering Manager",
+        "title": "Product Engineering Manager",
         "years": "August 2019 - Present ",
         "description": [
           "Promotion due to performance, already fulfilling role responsibilities, and ability to communicate effectively across technical and non-technical parties.",
-          "Managed team of 10+ developers located in 4 countries across 3 time zones by interviewing, hiring/terminating, managing budget, and respecting promised deliverable schedule.",
-          "Translated stakeholder needs into software architecture and design of 2 new web applications used in B2B financial services involving Fortune 500 companies.",
-          "Designed, developed, and delivered 2 new Single-Page Web  Apps, while leading 2 existing ones.",
-          "Accomplished the above by improving software engineering process using several methods, including sprint planning, proper use of JIRA, sprint retrospectives, testing pipeline, git management, and others."
+          "Managed team of 10-15 developers located in 4 countries across 3 time zones by hiring/terminating, managing budget, and respecting promised deliverable schedule.",
+          "Delivered 2 new web applications used in B2B FinTech involving Fortune 500 companies by translating stakeholder needs into software design, development, and delivery, while managing 2 existing applications.",
+          "Scaled machine learning algorithm for evaluating companies by rearchitecting, better data sourcing/wrangling, and hiring data analysts."
         ]
       },
       {
@@ -79,47 +80,41 @@
         "title": "Software Engineer - Full Stack",
         "years": "June 2018 - August 2019",
         "description": [
-          "Developed and assisted in design & architecture of 2 Single-Page Web Applications using ReactJS, NodeJS, Python & PostgreSQL as part of a team. Version control using Git.",
-          "Implemented proprietary algorithms for scoring users based on data analysis of over 1000 points of financial data & machine learning.",
-          "Suggested and integrated best practices including code quality, coverage, and unit testing, among others."
+          "Developed and assisted in design & architecture of 2 SPWAs using ReactJS, NodeJS, Python & PostgreSQL as part of a team.",
+          "Implemented proprietary algorithms for scoring businesses based on data analysis of over 1000 points of financial data & machine learning.",
+          "Suggested and integrated best practices including sprint planning, code quality, coverage, and unit testing, among others."
         ]
       },
       {
         "company": "Ubisoft Montréal",
         "tagline": "Largest independent video game publisher worldwide with multi-billion dollar revenue from major IPs and AAA video game franchises such as Assassin's Creed & Tom Clancy.",
         "title": "Tools Programmer",
-        "years": "June 2016 - January 2017",
+        "years": "June 2016 - January 2018",
         "description": [
-          "Received offer to transfer teams at request of new team lead & favorable recommendation of previous team lead. Accepted due to personal interest in Web Development.",
-          "Development using Angular (TypeScript) with MongoDB. Version control using Git.",
-          "Implemented tools to track and evaluate users’ interactions while using the application to identify problem areas in coordination with UX department.",
-          "Created a tool to automatically generate documentation for developers' code in Markdown while also enforcing test-driven development.",
-          "Heavy use of Scrum/Agile."
+          "Received offer to transfer teams at request of new team lead & favorable recommendation of previous team lead. Accepted due to interest in the technologies being used.",
+          "Developed, maintained, and optimized internal tool for managing gameplay analytics for AAA video games (incl. Assassin’s Creed & Tom Clancy’s Rainbow Six.)",
+          "Mentored team of 3 junior developers and interns on rotation."
         ]
       },
       {
         "company": "",
         "tagline": "",
-        "title": "Tools Programmer",
+        "title": "Tools Developer",
         "years": "January 2016 - June 2016",
         "description": [
-          "Developed, maintained, and optimized real-time collaborative tools used in production of AAA titles pre-release and post-release.",
-          "Requiring high proficiency in WPF (.NET/C#) & WinForms. Version control using Perforce/Helix.",
-          "Coordinated with UX team to ensure stakeholder needs are being met.",
-          "Heavy use of Scrum/Agile with strict deadlines and tight workflows.",
-          "Worked with highly confidential information as titles were unannounced."
+          "Developed, maintained, and optimized real-time collaboration tool used in production of AAA video games (incl. Assassin’s Creed & Tom Clancy’s Rainbow Six.)",
+          "Developed an internal web application for world-building in AAA video games linking directly to game engines. Built using a MEAN (MongoDB, Express.js, Angular (TypeScript), and Node.js) stack."
         ]
       },
       {
         "company": "Velan Inc.",
         "tagline": "Multi-billion dollar world leader in design and production of cast and forged severe service valves and steam traps across major industrial applications.",
-        "title": "Engineering Draft Technician",
-        "years": "June 2011 - September 2015",
+        "title": "Junior Manager, Engineering Schematics",
+        "years": "September 2012 - January 2016",
         "description": [
+          "Managed team of drafting technicians in the planning, production, and delivery of schematics for cast and forged severe service valves and steam traps used in major industrial applications.",
           "Analysis and reporting of chemical processing procedures and reviewing & drafting of technical drawings for manufacturing of industrial valves.",
-          "Responsible for updating and maintaining an inventory and shipment management database requiring annual overhaul.",
-          "Automated many daily tasks using scripts to increase efficiency.",
-          "Trained and supervised others to perform the above tasks."
+          "Automated many daily tasks using scripts to increase efficiency."
         ]
       }
     ],
