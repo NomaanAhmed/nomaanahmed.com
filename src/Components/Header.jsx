@@ -67,7 +67,7 @@ class Header extends Component {
           </ul>
         </nav>
         <span className='resumeDownloadDesktop hideIfMobile'>
-          <a href={resumeDownload} target='_blank' rel='noopener noreferrer'>
+          <a href={resumeDownload}>
             <i className='fa fa-download'></i> Download Resume
           </a>
         </span>
