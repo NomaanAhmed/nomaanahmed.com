@@ -28,7 +28,7 @@ class Footer extends Component {
               </li>
             </ul>
             <ul className='copyright'>
-              <li>&copy; Copyright 2020 Nomaan Ahmed</li>
+              <li>&copy; Copyright {new Date().getFullYear()} Nomaan Ahmed</li>
             </ul>
           </div>
           <div id='go-top'>
