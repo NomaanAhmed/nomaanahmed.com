@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class Footer extends Component {
   render() {
@@ -22,11 +22,7 @@ class Footer extends Component {
             <ul className='social-links'>
               {networks}
               <li className='resumeDownload'>
-                <a
-                  href={resumeDownload}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
+                <a href={resumeDownload}>
                   <i className='fa fa-download'></i>
                 </a>
               </li>

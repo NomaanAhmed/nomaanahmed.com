@@ -56,18 +56,14 @@ class Header extends Component {
               </a>
             </li>
             <li className='resumeDownloadMobile'>
-              <a
-                href={resumeDownload}
-                target='_blank'
-                rel='noopener noreferrer'
-              >
+              <a href={resumeDownload}>
                 <i className='fa fa-download'></i> Download Resume
               </a>
             </li>
           </ul>
         </nav>
         <span className='resumeDownloadDesktop hideIfMobile'>
-          <a href={resumeDownload} target='_blank' rel='noopener noreferrer'>
+          <a href={resumeDownload}>
             <i className='fa fa-download'></i> Download Resume
           </a>
         </span>
@@ -80,11 +76,7 @@ class Header extends Component {
             <ul className='social'>
               {networks}
               <li className='resumeDownload'>
-                <a
-                  href={resumeDownload}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
+                <a href={resumeDownload}>
                   <i className='fa fa-download'></i>
                 </a>
               </li>
