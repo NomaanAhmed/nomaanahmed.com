@@ -24,7 +24,7 @@ header {
 
 /* vertically center banner section */
 header:before {
-  content: "";
+  content: '';
   display: inline-block;
   vertical-align: middle;
   height: 100%;
@@ -46,14 +46,14 @@ header .banner-text {
   padding-bottom: 1em;
 }
 header .banner-text h1 {
-  font: 90px/1.1em "opensans-bold", sans-serif;
+  font: 90px/1.1em 'opensans-bold', sans-serif;
   color: white;
   letter-spacing: -2px;
   margin: 0 18px 18px 18px;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
 }
 header .banner-text h3 {
-  font: 18px/1.9em "librebaskerville-regular", serif;
+  font: 18px/1.9em 'opensans-regular', sans-serif;
   margin: 0 auto;
   width: 70%;
   color: white;
@@ -129,7 +129,7 @@ header .resumeDownloadDesktop a {
   z-index: 100;
   top: 0;
   right: 0;
-  font: 12px "opensans-bold", sans-serif;
+  font: 12px 'opensans-bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   padding: 8px 20px;
@@ -158,7 +158,7 @@ header .resumeDownloadDesktop a:hover {
 
 /* nav-wrap */
 #nav-wrap {
-  font: 12px "opensans-bold", sans-serif;
+  font: 12px 'opensans-bold', sans-serif;
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -238,7 +238,7 @@ ul#nav li.current a {
 }
 
 #about h2 {
-  font: 22px/30px "opensans-bold", sans-serif;
+  font: 22px/30px 'opensans-bold', sans-serif;
   color: #fff;
   margin-bottom: 12px;
 }
@@ -296,7 +296,7 @@ ul#nav li.current a {
 }
 
 #resume h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px 'opensans-bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -305,7 +305,7 @@ ul#nav li.current a {
   padding-bottom: 6px;
 }
 #resume h3 {
-  font: 25px/30px "opensans-bold", sans-serif;
+  font: 25px/30px 'opensans-bold', sans-serif;
 }
 
 #resume .main-col {
@@ -330,7 +330,7 @@ ul#nav li.current a {
 }
 
 #resume .info {
-  font: 16px/24px "librebaskerville-italic", serif;
+  font: 16px/24px 'librebaskerville-italic', serif;
   color: #6e7881;
   margin-bottom: 12px;
   margin-top: 9px;
@@ -340,7 +340,7 @@ ul#nav li.current a {
   margin-left: 5px;
 }
 #resume .date {
-  font: 15px/24px "opensans-regular", sans-serif;
+  font: 15px/24px 'opensans-regular', sans-serif;
   margin-top: 6px;
 }
 
@@ -382,7 +382,7 @@ ul#nav li.current a {
 }
 
 #repositories h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px 'opensans-bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -392,7 +392,7 @@ ul#nav li.current a {
   color: white;
 }
 #repositories h3 {
-  font: 25px/30px "opensans-bold", sans-serif;
+  font: 25px/30px 'opensans-bold', sans-serif;
 }
 
 #repositories .info span {
@@ -400,7 +400,7 @@ ul#nav li.current a {
   margin-left: 5px;
 }
 #repositories .date {
-  font: 15px/24px "opensans-regular", sans-serif;
+  font: 15px/24px 'opensans-regular', sans-serif;
   margin-top: 6px;
 }
 
@@ -469,7 +469,7 @@ ul#nav li.current a {
   border-radius: 3px;
 }
 .bars li em {
-  font: 15px "opensans-bold", sans-serif;
+  font: 15px 'opensans-bold', sans-serif;
   color: #313131;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -594,7 +594,7 @@ ul#nav li.current a {
   padding-bottom: 60px;
 }
 #portfolio h1 {
-  font: 15px/24px "opensans-semibold", sans-serif;
+  font: 15px/24px 'opensans-semibold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
@@ -672,11 +672,11 @@ ul#nav li.current a {
   padding: 18px;
 }
 .portfolio-item .portfolio-item-meta h5 {
-  font: 14px/21px "opensans-bold", sans-serif;
+  font: 14px/21px 'opensans-bold', sans-serif;
   color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-  font: 12px/18px "opensans-light", sans-serif;
+  font: 12px/18px 'opensans-light', sans-serif;
   color: #c6c7c7;
   margin-bottom: 0;
 }
@@ -704,17 +704,17 @@ ul#nav li.current a {
   padding: 12px 36px 18px 36px;
 }
 .popup-modal .description-box h4 {
-  font: 15px/24px "opensans-bold", sans-serif;
+  font: 15px/24px 'opensans-bold', sans-serif;
   margin-bottom: 12px;
   color: #111;
 }
 .popup-modal .description-box p {
-  font: 14px/24px "opensans-regular", sans-serif;
+  font: 14px/24px 'opensans-regular', sans-serif;
   color: #a1a1a1;
   margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
-  font: 11px/21px "opensans-light", sans-serif;
+  font: 11px/21px 'opensans-light', sans-serif;
   color: #a1a1a1;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -731,7 +731,7 @@ ul#nav li.current a {
 }
 .popup-modal .link-box a {
   color: #fff;
-  font: 11px/21px "opensans-bold", sans-serif;
+  font: 11px/21px 'opensans-bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   cursor: pointer;
@@ -774,7 +774,7 @@ ul#nav li.current a {
   padding-bottom: 48px;
 }
 #call-to-action h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px 'opensans-bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
@@ -783,8 +783,8 @@ ul#nav li.current a {
   display: none;
 }
 #call-to-action .header-col h1:before {
-  font-family: "FontAwesome";
-  content: "\f0ac";
+  font-family: 'FontAwesome';
+  content: '\f0ac';
   padding-right: 10px;
   font-size: 72px;
   line-height: 72px;
@@ -796,7 +796,7 @@ ul#nav li.current a {
   margin-top: 12px;
 }
 #call-to-action h2 {
-  font: 28px/36px "opensans-bold", sans-serif;
+  font: 28px/36px 'opensans-bold', sans-serif;
   color: #ebeeee;
   margin-bottom: 6px;
 }
@@ -819,7 +819,7 @@ ul#nav li.current a {
   color: #0d0d0d;
 }
 #call-to-action p span {
-  font-family: "opensans-semibold", sans-serif;
+  font-family: 'opensans-semibold', sans-serif;
   color: #d8d8d8;
 }
 
@@ -844,7 +844,7 @@ ul#nav li.current a {
   padding-bottom: 66px;
 }
 #testimonials h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px 'opensans-bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
@@ -856,8 +856,8 @@ ul#nav li.current a {
   padding-top: 9px;
 }
 #testimonials .header-col h1:before {
-  font-family: "FontAwesome";
-  content: "\f10d";
+  font-family: 'FontAwesome';
+  content: '\f10d';
   padding-right: 10px;
   font-size: 72px;
   line-height: 72px;
@@ -877,7 +877,7 @@ ul#nav li.current a {
   content: none;
 }
 #testimonials blockquote p {
-  font-family: "librebaskerville-italic", serif;
+  font-family: 'librebaskerville-italic', serif;
   padding: 0;
   font-size: 24px;
   line-height: 48px;
@@ -891,7 +891,7 @@ ul#nav li.current a {
   color: #fff;
 }
 #testimonials blockquote cite:before {
-  content: "\2014 \0020";
+  content: '\2014 \0020';
 }
 #testimonials blockquote cite a,
 #testimonials blockquote cite a:visited {
@@ -923,7 +923,7 @@ ul#nav li.current a {
 }
 
 #contact h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px 'opensans-bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #ebeeee;
@@ -933,8 +933,8 @@ ul#nav li.current a {
   display: none;
 }
 #contact h1:before {
-  font-family: "FontAwesome";
-  content: "\f0e0";
+  font-family: 'FontAwesome';
+  content: '\f0e0';
   padding-right: 10px;
   font-size: 72px;
   line-height: 72px;
@@ -944,12 +944,12 @@ ul#nav li.current a {
 }
 
 #contact h4 {
-  font: 16px/24px "opensans-bold", sans-serif;
+  font: 16px/24px 'opensans-bold', sans-serif;
   color: #ebeeee;
   margin-bottom: 6px;
 }
 #contact p.lead {
-  font: 18px/36px "opensans-bold", sans-serif;
+  font: 18px/36px 'opensans-bold', sans-serif;
   color: white;
   margin-left: 18%;
   padding-right: 18%;
@@ -966,7 +966,7 @@ ul#nav li.current a {
   margin-bottom: 30px;
 }
 #contact label {
-  font: 15px/24px "opensans-bold", sans-serif;
+  font: 15px/24px 'opensans-bold', sans-serif;
   margin: 12px 0;
   color: #ebeeee;
   display: inline-block;
@@ -976,7 +976,7 @@ ul#nav li.current a {
 #contact input,
 #contact textarea,
 #contact select {
-  font: 15px/24px "opensans", sans-serif;
+  font: 15px/24px 'opensans-regular', sans-serif;
   padding: 18px 20px;
   color: #eee;
   background: #373233;
@@ -1052,7 +1052,7 @@ ul#nav li.current a {
   display: block;
 }
 #twitter li b a {
-  font: 13px/36px "opensans-regular", Sans-serif;
+  font: 13px/36px 'opensans-regular', Sans-serif;
   color: #474747 !important;
   border: none;
 }
@@ -1094,7 +1094,7 @@ footer .copyright li {
   display: inline;
 }
 footer .copyright li:before {
-  content: "\2022";
+  content: '\2022';
   padding-left: 10px;
   padding-right: 10px;
   color: #095153;
@@ -1163,7 +1163,7 @@ hr {
   /* header styles
      ------------------------------------------------------------------ */
   header .banner-text h1 {
-    font: 80px/1.1em "opensans-bold", sans-serif;
+    font: 80px/1.1em 'opensans-bold', sans-serif;
     letter-spacing: -1px;
     margin: 0 12px 12px 12px;
   }
@@ -1178,11 +1178,11 @@ hr {
     padding-bottom: 12px;
   }
   header .banner-text h1 {
-    font: 78px/1.1em "opensans-bold", sans-serif;
+    font: 78px/1.1em 'opensans-bold', sans-serif;
     letter-spacing: -1px;
   }
   header .banner-text h3 {
-    font: 17px/1.9em "librebaskerville-regular", serif;
+    font: 17px/1.9em 'opensans-regular', serif;
     width: 80%;
   }
   header .banner-text hr {
@@ -1191,7 +1191,7 @@ hr {
   }
   /* nav-wrap */
   #nav-wrap {
-    font: 11px "opensans-bold", sans-serif;
+    font: 11px 'opensans-bold', sans-serif;
     letter-spacing: 1.5px;
   }
 
@@ -1216,7 +1216,7 @@ hr {
   /* Resume Section
      ------------------------------------------------------------------- */
   #resume h1 {
-    font: 16px/24px "opensans-bold", sans-serif;
+    font: 16px/24px 'opensans-bold', sans-serif;
   }
   #resume .main-col {
     padding-right: 5%;
@@ -1225,7 +1225,7 @@ hr {
   /* Projects Section
      ------------------------------------------------------------------- */
   #repositories h1 {
-    font: 16px/24px "opensans-bold", sans-serif;
+    font: 16px/24px 'opensans-bold', sans-serif;
   }
   #repositories .main-col {
     padding-right: 5%;
@@ -1282,7 +1282,7 @@ hr {
   }
 
   #nav-wrap {
-    font: 12px "opensans-bold", sans-serif;
+    font: 12px 'opensans-bold', sans-serif;
     background: transparent !important;
     letter-spacing: 1.5px;
     width: auto;
@@ -1315,7 +1315,7 @@ hr {
     top: 35%;
     left: 25%;
     right: 25%;
-    content: "";
+    content: '';
   }
   #nav-wrap > a:after {
     top: 60%;
@@ -1380,10 +1380,10 @@ hr {
     padding-top: 6px;
   }
   header .banner-text h1 {
-    font: 68px/1.1em "opensans-bold", sans-serif;
+    font: 68px/1.1em 'opensans-bold', sans-serif;
   }
   header .banner-text h3 {
-    font: 16px/1.9em "librebaskerville-regular", serif;
+    font: 16px/1.9em 'opensans-regular', serif;
     width: 85%;
   }
   header .banner-text hr {
@@ -1473,7 +1473,7 @@ hr {
     text-align: center;
   }
   #call-to-action h1 {
-    font: 16px/24px "opensans-bold", sans-serif;
+    font: 16px/24px 'opensans-bold', sans-serif;
     text-align: center;
     margin-bottom: 30px;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
@@ -1503,7 +1503,7 @@ hr {
     text-align: center;
   }
   #testimonials h1 {
-    font: 16px/24px "opensans-bold", sans-serif;
+    font: 16px/24px 'opensans-bold', sans-serif;
     text-align: center;
     margin-bottom: 30px;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
@@ -1537,7 +1537,7 @@ hr {
     margin-bottom: 12px;
   }
   #contact .section-head h1 {
-    font: 16px/24px "opensans-bold", sans-serif;
+    font: 16px/24px 'opensans-bold', sans-serif;
     text-align: center;
     margin-bottom: 30px;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
@@ -1547,7 +1547,7 @@ hr {
   }
 
   #contact p.lead {
-    font: 18px/36px "opensans", sans-serif;
+    font: 18px/36px 'opensans', sans-serif;
     color: white;
     margin-left: unset;
     padding-right: unset;
@@ -1631,11 +1631,11 @@ hr {
     padding-top: 24px;
   }
   header .banner-text h1 {
-    font: 40px/1.1em "opensans-bold", sans-serif;
+    font: 40px/1.1em 'opensans-bold', sans-serif;
     margin: 0 24px 24px 24px;
   }
   header .banner-text h3 {
-    font: 14px/1.9em "librebaskerville-regular", sans-serif;
+    font: 14px/1.9em 'opensans-regular', sans-serif;
     width: 90%;
   }
 

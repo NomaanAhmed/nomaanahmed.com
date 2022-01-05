@@ -8,7 +8,7 @@ body {
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
-    /* ------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------ */
 
 header {
   position: relative;
@@ -53,7 +53,7 @@ header .banner-text h1 {
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
 }
 header .banner-text h3 {
-  font: 18px/1.9em 'librebaskerville-regular', serif;
+  font: 18px/1.9em 'opensans-regular', sans-serif;
   margin: 0 auto;
   width: 70%;
   color: white;
@@ -142,7 +142,7 @@ header .resumeDownloadDesktop a:hover {
 }
 
 /* primary navigation
-    --------------------------------------------------------------------- */
+  --------------------------------------------------------------------- */
 #nav-wrap ul,
 #nav-wrap li,
 #nav-wrap a {
@@ -219,7 +219,7 @@ ul#nav li.current a {
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
-    /* ------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------ */
 
 #about {
   background: #2b2b2b;
@@ -277,7 +277,7 @@ ul#nav li.current a {
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
-    /* ------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------ */
 
 #resume {
   background: #fff;
@@ -357,7 +357,7 @@ ul#nav li.current a {
 }
 /* ------------------------------------------------------------------ */
 /* Projects Section
-    /* ------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------ */
 
 #repositories {
   background: #1f1f1f url(./static/images/perspective-bg.jpg) no-repeat center
@@ -449,7 +449,7 @@ ul#nav li.current a {
 
 /*----------------------------------------------*/
 /*	Skill Bars
-    /*----------------------------------------------*/
+  /*----------------------------------------------*/
 
 .bars {
   width: 75%;
@@ -497,96 +497,96 @@ ul#nav li.current a {
   transition: opacity 1s ease-out;
 }
 /*
-    .git {
-          -moz-animation: git 2s ease;
-          -webkit-animation: git 2s ease;
-    }
-    .illustrator {
-          -moz-animation: illustrator 2s ease;
-          -webkit-animation: illustrator 2s ease;
-    }
-    .reactjs {
-          -moz-animation: reactjs 2s ease;
-          -webkit-animation: reactjs 2s ease;
-    }
-    .css {
-          -moz-animation: css 2s ease;
-          -webkit-animation: css 2s ease;
-    }
-    .html5 {
-          -moz-animation: html5 2s ease;
-          -webkit-animation: html5 2s ease;
-    }
-    .vuejs {
-          -moz-animation: vuejs 2s ease;
-          -webkit-animation: vuejs 2s ease;
-    }
-    .mongodb {
-          -moz-animation: mongodb 2s ease;
-          -webkit-animation: mongodb 2s ease;
-    }
-    
-    @-moz-keyframes git {
-      0%   { width: 0px;  }
-      100% { width: 60%;  }
-    }
-    @-moz-keyframes illustrator {
-      0%   { width: 0px;  }
-      100% { width: 55%;  }
-    }
-    @-moz-keyframes reactjs {
-      0%   { width: 0px;  }
-      100% { width: 50%;  }
-    }
-    @-moz-keyframes css {
-      0%   { width: 0px;  }
-      100% { width: 90%;  }
-    }
-    @-moz-keyframes html5 {
-      0%   { width: 0px;  }
-      100% { width: 80%;  }
-    }
-    @-moz-keyframes vuejs {
-      0%   { width: 0px;  }
-      100% { width: 50%;  }
-    }
-    @-moz-keyframes mongodb {
-      0%   { width: 0px;  }
-      100% { width: 80%;  }
-    }
-    
-    @-webkit-keyframes photoshop {
-      0%   { width: 0px;  }
-      100% { width: 60%;  }
-    }
-    @-webkit-keyframes illustrator {
-      0%   { width: 0px;  }
-      100% { width: 55%;  }
-    }
-    @-webkit-keyframes reactjs {
-      0%   { width: 0px;  }
-      100% { width: 50%;  }
-    }
-    @-webkit-keyframes css {
-      0%   { width: 0px;  }
-      100% { width: 90%;  }
-    }
-    @-webkit-keyframes html5 {
-      0%   { width: 0px;  }
-      100% { width: 80%;  }
-    }
-    @-webkit-keyframes vuejs {
-      0%   { width: 0px;  }
-      100% { width: 50%;  }
-    }
-    @-webkit-keyframes mongodb {
-      0%   { width: 0px;  }
-      100% { width: 80%;  }
-    }  */
+  .git {
+        -moz-animation: git 2s ease;
+        -webkit-animation: git 2s ease;
+  }
+  .illustrator {
+        -moz-animation: illustrator 2s ease;
+        -webkit-animation: illustrator 2s ease;
+  }
+  .reactjs {
+        -moz-animation: reactjs 2s ease;
+        -webkit-animation: reactjs 2s ease;
+  }
+  .css {
+        -moz-animation: css 2s ease;
+        -webkit-animation: css 2s ease;
+  }
+  .html5 {
+        -moz-animation: html5 2s ease;
+        -webkit-animation: html5 2s ease;
+  }
+  .vuejs {
+        -moz-animation: vuejs 2s ease;
+        -webkit-animation: vuejs 2s ease;
+  }
+  .mongodb {
+        -moz-animation: mongodb 2s ease;
+        -webkit-animation: mongodb 2s ease;
+  }
+  
+  @-moz-keyframes git {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
+  }
+  @-moz-keyframes illustrator {
+    0%   { width: 0px;  }
+    100% { width: 55%;  }
+  }
+  @-moz-keyframes reactjs {
+    0%   { width: 0px;  }
+    100% { width: 50%;  }
+  }
+  @-moz-keyframes css {
+    0%   { width: 0px;  }
+    100% { width: 90%;  }
+  }
+  @-moz-keyframes html5 {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
+  }
+  @-moz-keyframes vuejs {
+    0%   { width: 0px;  }
+    100% { width: 50%;  }
+  }
+  @-moz-keyframes mongodb {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
+  }
+  
+  @-webkit-keyframes photoshop {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
+  }
+  @-webkit-keyframes illustrator {
+    0%   { width: 0px;  }
+    100% { width: 55%;  }
+  }
+  @-webkit-keyframes reactjs {
+    0%   { width: 0px;  }
+    100% { width: 50%;  }
+  }
+  @-webkit-keyframes css {
+    0%   { width: 0px;  }
+    100% { width: 90%;  }
+  }
+  @-webkit-keyframes html5 {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
+  }
+  @-webkit-keyframes vuejs {
+    0%   { width: 0px;  }
+    100% { width: 50%;  }
+  }
+  @-webkit-keyframes mongodb {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
+  }  */
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
-    /* ------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------ */
 
 #portfolio {
   background: #ebeeee;
@@ -744,7 +744,7 @@ ul#nav li.current a {
 }
 
 /* fadein/fadeout effect for modal popup
-    /* ------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------ */
 
 /* content at start */
 .mfp-fade.mfp-wrap .mfp-content .popup-modal {
@@ -766,7 +766,7 @@ ul#nav li.current a {
 
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
-    /* ------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------ */
 
 #call-to-action {
   background: #212121;
@@ -808,11 +808,11 @@ ul#nav li.current a {
   font-size: 17px;
 }
 /*#
-    call-to-action .button {
-        color:#fff;
-       background: #0D0D0D;
-    }
-    */
+  call-to-action .button {
+      color:#fff;
+     background: #0D0D0D;
+  }
+  */
 #call-to-action .button:hover,
 #call-to-action .button:active {
   background: #ffffff;
@@ -824,8 +824,8 @@ ul#nav li.current a {
 }
 
 /* ------------------------------------------------------------------
-    /* g. Testimonials
-    /* ------------------------------------------------------------------ */
+  /* g. Testimonials
+  /* ------------------------------------------------------------------ */
 
 #testimonials {
   background: #1f1f1f url(./static/images/perspective-bg.jpg) no-repeat center
@@ -901,7 +901,7 @@ ul#nav li.current a {
 
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
-    /* ------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------ */
 
 #contact {
   background: #191919;
@@ -976,7 +976,7 @@ ul#nav li.current a {
 #contact input,
 #contact textarea,
 #contact select {
-  font: 15px/24px 'opensans', sans-serif;
+  font: 15px/24px 'opensans-regular', sans-serif;
   padding: 18px 20px;
   color: #eee;
   background: #373233;
@@ -1059,7 +1059,7 @@ ul#nav li.current a {
 
 /* ------------------------------------------------------------------ */
 /* i. Footer
-    /* ------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------ */
 
 footer {
   padding-top: 48px;
@@ -1156,12 +1156,12 @@ hr {
 }
 
 /* MEDIA QUERIES 
-   =================================================== */
+ =================================================== */
 /* screenwidth less than 1024px
-  --------------------------------------------------------------------- */
+--------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
   /* header styles
-       ------------------------------------------------------------------ */
+     ------------------------------------------------------------------ */
   header .banner-text h1 {
     font: 80px/1.1em 'opensans-bold', sans-serif;
     letter-spacing: -1px;
@@ -1170,10 +1170,10 @@ hr {
 }
 
 /* screenwidth less than 900px
-    --------------------------------------------------------------------- */
+  --------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
   /* header styles
-       ------------------------------------------------------------------ */
+     ------------------------------------------------------------------ */
   header .banner {
     padding-bottom: 12px;
   }
@@ -1182,7 +1182,7 @@ hr {
     letter-spacing: -1px;
   }
   header .banner-text h3 {
-    font: 17px/1.9em 'librebaskerville-regular', serif;
+    font: 17px/1.9em 'opensans-regular', serif;
     width: 80%;
   }
   header .banner-text hr {
@@ -1200,7 +1200,7 @@ hr {
   }
 
   /* About Section
-       ------------------------------------------------------------------- */
+     ------------------------------------------------------------------- */
   #about .profile-pic {
     width: 114px;
     height: 114px;
@@ -1214,7 +1214,7 @@ hr {
   }
 
   /* Resume Section
-       ------------------------------------------------------------------- */
+     ------------------------------------------------------------------- */
   #resume h1 {
     font: 16px/24px 'opensans-bold', sans-serif;
   }
@@ -1223,7 +1223,7 @@ hr {
   }
 
   /* Projects Section
-       ------------------------------------------------------------------- */
+     ------------------------------------------------------------------- */
   #repositories h1 {
     font: 16px/24px 'opensans-bold', sans-serif;
   }
@@ -1240,7 +1240,7 @@ hr {
   }
 
   /* Testimonials Section
-       ------------------------------------------------------------------- */
+     ------------------------------------------------------------------- */
   #testimonials .header-col h1:before {
     font-size: 66px;
     line-height: 66px;
@@ -1251,14 +1251,14 @@ hr {
   }
 
   /* Call to Action Section
-       ------------------------------------------------------------------- */
+     ------------------------------------------------------------------- */
   #call-to-action .header-col h1:before {
     font-size: 66px;
     line-height: 66px;
   }
 
   /* Contact Section
-       ------------------------------------------------------------------- */
+     ------------------------------------------------------------------- */
   #contact .section-head {
     margin-bottom: 30px;
   }
@@ -1272,11 +1272,11 @@ hr {
 }
 
 /* mobile wide/smaller tablets
-    ---------------------------------------------------------------------- */
+  ---------------------------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
   /* mobile navigation
-       -------------------------------------------------------------------- */
+     -------------------------------------------------------------------- */
   .hideIfSmallMobile {
     display: none;
   }
@@ -1374,7 +1374,7 @@ hr {
   }
 
   /* Header Styles
-       -------------------------------------------------------------------- */
+     -------------------------------------------------------------------- */
   header .banner {
     padding-bottom: 12px;
     padding-top: 6px;
@@ -1383,7 +1383,7 @@ hr {
     font: 68px/1.1em 'opensans-bold', sans-serif;
   }
   header .banner-text h3 {
-    font: 16px/1.9em 'librebaskerville-regular', serif;
+    font: 16px/1.9em 'opensans-regular', serif;
     width: 85%;
   }
   header .banner-text hr {
@@ -1407,7 +1407,7 @@ hr {
   }
 
   /* About Section
-       -------------------------------------------------------------------- */
+     -------------------------------------------------------------------- */
   #about {
     padding-top: 75px;
   }
@@ -1430,7 +1430,7 @@ hr {
   }
 
   /* Resume Section
-       --------------------------------------------------------------------- */
+     --------------------------------------------------------------------- */
   #resume .header-col {
     padding-top: 0;
     margin-bottom: 48px;
@@ -1461,14 +1461,14 @@ hr {
   }
 
   /* Repositories Section
-      --------------------------------------------------------------------- */
+    --------------------------------------------------------------------- */
 
   #repositories .header-col {
     margin-bottom: 48px;
   }
 
   /* Call To Action Section
-       /* ----------------------------------------------------------------- */
+     /* ----------------------------------------------------------------- */
   #call-to-action {
     text-align: center;
   }
@@ -1489,7 +1489,7 @@ hr {
   }
 
   /* Portfolio Section
-       /* ----------------------------------------------------------------- */
+     /* ----------------------------------------------------------------- */
   #portfolio-wrapper .columns {
     margin-bottom: 40px;
   }
@@ -1498,7 +1498,7 @@ hr {
   }
 
   /* Testimonials Section
-       ----------------------------------------------------------------------- */
+     ----------------------------------------------------------------------- */
   #testimonials .text-container {
     text-align: center;
   }
@@ -1529,7 +1529,7 @@ hr {
   }
 
   /* contact Section
-       ----------------------------------------------------------------------- */
+     ----------------------------------------------------------------------- */
   #contact {
     padding-bottom: 66px;
   }
@@ -1584,7 +1584,7 @@ hr {
   }
 
   /* footer
-       ------------------------------------------------------------------------ */
+     ------------------------------------------------------------------------ */
 
   /* copyright */
   footer .copyright li:before {
@@ -1615,18 +1615,18 @@ hr {
 }
 
 /* mobile narrow
-      -------------------------------------------------------------------------- */
+    -------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
   /* mobile navigation
-       -------------------------------------------------------------------- */
+     -------------------------------------------------------------------- */
   #nav-wrap ul#nav {
     width: auto;
     float: right;
   }
 
   /* header styles
-       -------------------------------------------------------------------- */
+     -------------------------------------------------------------------- */
   header .banner {
     padding-top: 24px;
   }
@@ -1635,7 +1635,7 @@ hr {
     margin: 0 24px 24px 24px;
   }
   header .banner-text h3 {
-    font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+    font: 14px/1.9em 'opensans-regular', sans-serif;
     width: 90%;
   }
 
@@ -1648,7 +1648,7 @@ hr {
   }
 
   /* footer
-       ------------------------------------------------------------------------ */
+     ------------------------------------------------------------------------ */
 
   /* social links */
   footer .social-links {
