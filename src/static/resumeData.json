@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Nomaan Ahmed",
-    "occupation": "Software Engineer",
-    "description": "I'm a Software Engineer with a proven history of being able to design, develop, and deliver well-built products.",
+    "occupation": "Software Engineering Leadership",
+    "description": "I'm a Software Engineering leader with a proven history of being able to design, develop, and deliver well-built products.",
     "image": "(Fill in manually in component imports)",
-    "bio": "I like to solve problems and build things. Lately, I've been trying to do both of those at scale. Always looking to make an impact - have something in mind? Let's talk.",
+    "bio": "I like to build things that solve problems. Lately, I've been trying to do both of those at scale. Always looking to make an impact - have something in mind? Let's talk.",
     "contactmessage": "Have something in mind? Let's talk.",
     "email": "nomaan.ahmed.8@gmail.com",
     "location": "Toronto, Ontario, Canada",
@@ -59,7 +59,7 @@
         "title": "Director, Engineering",
         "years": "August 2020 - Present ",
         "description": [
-        "Reporting directly to CEO, managed roadmaps and feature development of Localised products in support of major brands (American Eagle, Urban Outfitters, Crate&Barrel, Saks Fifth Avenue, etc.) as well as technical representation of Localised in external meetings."
+          "Reporting directly to CEO, managed roadmaps and feature development of Localised products in support of major brands (American Eagle, Urban Outfitters, Crate&Barrel, Saks Fifth Avenue, etc.) as well as technical representation of Localised in external meetings."
         ]
       },
       {
@@ -123,7 +123,7 @@
         {
           "name": "JavaScript",
           "level": 90,
-          "details": "React, React Native, Express.js, Node.js, Angular"
+          "details": "ReactJS, React Native, Express.js, Node.js, Angular"
         },
         {
           "name": "CSS",
@@ -133,7 +133,7 @@
         {
           "name": "TypeScript",
           "level": 85,
-          "details": "Node.js, Angular"
+          "details": "ReactJS, Node.js, Angular"
         },
         {
           "name": "Python",
@@ -158,12 +158,12 @@
           "details": "Xamarin (Cross-Platform)"
         },
         {
-          "name": "Obj-C",
-          "level": 60,
+          "name": "Swift",
+          "level": 75,
           "details": "iOS"
         },
         {
-          "name": "Swift",
+          "name": "Obj-C",
           "level": 60,
           "details": "iOS"
         }
@@ -172,12 +172,12 @@
         {
           "name": "Python",
           "level": 85,
-          "details": "Anaconda, TensorFlow, Pandas, Big Data, ML, AI"
+          "details": "Data Analytics/Big Data, ML, AI"
         },
         {
           "name": "C#",
           "level": 85,
-          "details": "WPF, WinForms"
+          "details": ".NET, WPF, WinForms"
         },
         {
           "name": "Java",
@@ -195,27 +195,27 @@
         {
           "name": "Agile/Scrum",
           "level": 100,
-          "details": "Scrum Master Training, Professional Experience"
+          "details": "Scrum Master Certification"
         },
         {
           "name": "Git",
           "level": 95,
-          "details": "CLI, GitHub/GitLab/BitBucket"
+          "details": ""
         },
         {
-          "name": "SQL",
+          "name": "PostgreSQL/MySQL",
           "level": 90,
-          "details": "Application Design & Architecture"
+          "details": ""
         },
         {
           "name": "MongoDB",
           "level": 85,
-          "details": "Application Design & Architecture"
+          "details": ""
         },
         {
           "name": "Perforce/Helix",
           "level": 75,
-          "details": "P4V/Helix Client"
+          "details": ""
         }
       ]
     },

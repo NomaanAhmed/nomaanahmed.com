@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class Header extends Component {
   render() {
@@ -67,7 +67,7 @@ class Header extends Component {
           </ul>
         </nav>
         <span className='resumeDownloadDesktop hideIfMobile'>
-          <a href={resumeDownload}>
+          <a href={resumeDownload} target='_blank' rel='noopener noreferrer'>
             <i className='fa fa-download'></i> Download Resume
           </a>
         </span>

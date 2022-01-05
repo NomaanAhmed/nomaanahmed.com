@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "react-tabs/style/react-tabs.css";
+import React, { Component } from 'react';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 
 class Resume extends Component {
   constructor(props) {
@@ -15,19 +15,19 @@ class Resume extends Component {
 
   toggleHover = (type) => {
     switch (type) {
-      case "web":
+      case 'web':
         this.setState((prevState) => ({
           hoverWeb: !prevState.hoverWeb,
         }));
-      case "oop":
+      case 'oop':
         this.setState((prevState) => ({
           hoverOOP: !prevState.hoverOOP,
         }));
-      case "mobile":
+      case 'mobile':
         this.setState((prevState) => ({
           hoverMobile: !prevState.hoverMobile,
         }));
-      case "other":
+      case 'other':
         this.setState((prevState) => ({
           hoverOther: !prevState.hoverOther,
         }));
@@ -42,8 +42,7 @@ class Resume extends Component {
           <div key={education.school}>
             <h3>{education.school}</h3>
             <p className='info'>
-              {education.degree}{" "}
-              <span className='hideIfSmallMobile'>&bull;</span>{" "}
+              {education.degree} <span className='hideIfSmallMobile'></span>{' '}
               <em className='date'>{education.graduated}</em>
             </p>
             <p>{education.description}</p>
@@ -66,7 +65,7 @@ class Resume extends Component {
             <h3>{work.company}</h3>
             <span className='company-tagline'>{work.tagline}</span>
             <p className='info'>
-              {work.title} <span className='hideIfSmallMobile'>&bull;</span>{" "}
+              {work.title} <span className='hideIfSmallMobile'>&bull;</span>{' '}
               <em className='date'>{work.years}</em>
             </p>
             <ul>{workDescription}</ul>
@@ -75,10 +74,10 @@ class Resume extends Component {
       });
 
       var webSkills = this.props.data.skills.web.map((skills) => {
-        var className = "bar-expand " + skills.name.toLowerCase();
+        var className = 'bar-expand ' + skills.name.toLowerCase();
         return (
           <li key={skills.name}>
-            <span style={{ width: skills.level + "%" }} className={className}>
+            <span style={{ width: skills.level + '%' }} className={className}>
               {this.state.hoverWeb && (
                 <span className='bar-text hideIfMobile'>{skills.details}</span>
               )}
@@ -88,11 +87,11 @@ class Resume extends Component {
         );
       });
       var oopSkills = this.props.data.skills.oop.map((skills) => {
-        var className = "bar-expand " + skills.name.toLowerCase();
+        var className = 'bar-expand ' + skills.name.toLowerCase();
         return (
           <li key={skills.name}>
-            <span style={{ width: skills.level + "%" }} className={className}>
-              {" "}
+            <span style={{ width: skills.level + '%' }} className={className}>
+              {' '}
               {this.state.hoverOOP && (
                 <span className='bar-text hideIfMobile'>{skills.details}</span>
               )}
@@ -102,10 +101,10 @@ class Resume extends Component {
         );
       });
       var mobileSkills = this.props.data.skills.mobile.map((skills) => {
-        var className = "bar-expand " + skills.name.toLowerCase();
+        var className = 'bar-expand ' + skills.name.toLowerCase();
         return (
           <li key={skills.name}>
-            <span style={{ width: skills.level + "%" }} className={className}>
+            <span style={{ width: skills.level + '%' }} className={className}>
               {this.state.hoverMobile && (
                 <span className='bar-text hideIfMobile'>{skills.details}</span>
               )}
@@ -115,10 +114,10 @@ class Resume extends Component {
         );
       });
       var otherSkills = this.props.data.skills.other.map((skills) => {
-        var className = "bar-expand " + skills.name.toLowerCase();
+        var className = 'bar-expand ' + skills.name.toLowerCase();
         return (
           <li key={skills.name}>
-            <span style={{ width: skills.level + "%" }} className={className}>
+            <span style={{ width: skills.level + '%' }} className={className}>
               {this.state.hoverOther && (
                 <span className='bar-text hideIfMobile'>{skills.details}</span>
               )}
@@ -175,8 +174,8 @@ class Resume extends Component {
                 <TabPanel>
                   <div
                     className='bars'
-                    onMouseEnter={() => this.toggleHover("web")}
-                    onMouseLeave={() => this.toggleHover("web")}
+                    onMouseEnter={() => this.toggleHover('web')}
+                    onMouseLeave={() => this.toggleHover('web')}
                   >
                     <ul className='skills'>{webSkills}</ul>
                   </div>
@@ -186,8 +185,8 @@ class Resume extends Component {
                 <TabPanel>
                   <div
                     className='bars'
-                    onMouseEnter={() => this.toggleHover("oop")}
-                    onMouseLeave={() => this.toggleHover("oop")}
+                    onMouseEnter={() => this.toggleHover('oop')}
+                    onMouseLeave={() => this.toggleHover('oop')}
                   >
                     <ul className='skills'>{oopSkills}</ul>
                   </div>
@@ -197,8 +196,8 @@ class Resume extends Component {
                 <TabPanel>
                   <div
                     className='bars'
-                    onMouseEnter={() => this.toggleHover("mobile")}
-                    onMouseLeave={() => this.toggleHover("mobile")}
+                    onMouseEnter={() => this.toggleHover('mobile')}
+                    onMouseLeave={() => this.toggleHover('mobile')}
                   >
                     <ul className='skills'>{mobileSkills}</ul>
                   </div>
@@ -208,8 +207,8 @@ class Resume extends Component {
                 <TabPanel>
                   <div
                     className='bars'
-                    onMouseEnter={() => this.toggleHover("other")}
-                    onMouseLeave={() => this.toggleHover("other")}
+                    onMouseEnter={() => this.toggleHover('other')}
+                    onMouseLeave={() => this.toggleHover('other')}
                   >
                     <ul className='skills'>{otherSkills}</ul>
                   </div>
