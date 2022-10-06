@@ -54,10 +54,17 @@
     ],
     "work": [
       {
+        "company": "Snapcommerce",
+        "tagline": "High-growth, global startup that sits at the intersection of mobile commerce and fintech. ",
+        "title": "Engineering",
+        "years": "August 2022 - Present ",
+        "description": ["Engineering @ Snapcommerce"]
+      },
+      {
         "company": "Localised",
         "tagline": "Global startup specializing in all aspects of ecommerce enabling major brands to expand worldwide. Brands include Urban Outfitters, American Eagle, Crate & Barrel & others.",
         "title": "Director, Engineering",
-        "years": "August 2020 - Present ",
+        "years": "August 2020 - August 2022 ",
         "description": [
           "Reporting directly to CEO, managed roadmaps and feature development of Localised products in support of major brands (American Eagle, Urban Outfitters, Crate&Barrel, Saks Fifth Avenue, etc.) as well as technical representation of Localised in external meetings."
         ]
